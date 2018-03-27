@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Solar System Geek</title>
-    <c:url value="/css/aminoacid.css" var="cssHref" />
+    <c:url value="/css/solarsystemgeek.css" var="cssHref" />
     <link rel="stylesheet" href="${cssHref}">
 </head>
 
@@ -22,7 +22,7 @@
     <nav>
         <h2>Explore The Solar System</h2>
         <p> Use these state of the art web applications to learn more about the solar system! </p>
-        <ul class = "head">
+        <ul>
         		
         		<c:url value="/alienAgeCalc" var="alienAgeCalcPage" />
             <li><a href="${alienAgeCalcPage}">Alien Age</a></li>
